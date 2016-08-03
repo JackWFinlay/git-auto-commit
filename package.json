@@ -15,7 +15,7 @@
     "commit",
     "push"
   ],
-  "author": "Jack Witbrock Finlay",
+  "author": "Jack Witbrock Finlay <jack@jackfinlay.com> (http://jackfinlay.com)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/JackWFinlay/git-auto-commit/issues"
