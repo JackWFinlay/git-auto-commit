@@ -2,7 +2,7 @@
   "name": "git-auto-commit",
   "version": "0.0.1",
   "description": "git-auto-commit monitors a local git repo and automatically pushes on file save or add.",
-  "main": "src/index.js",
+  "main": "src/git-auto-commit.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,12 +13,16 @@
   "keywords": [
     "git",
     "commit",
-    "push"
+    "push",
+    "vcs"
   ],
   "author": "Jack Witbrock Finlay <jack@jackfinlay.com> (http://jackfinlay.com)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/JackWFinlay/git-auto-commit/issues"
   },
-  "homepage": "https://github.com/JackWFinlay/git-auto-commit#readme"
+  "homepage": "https://github.com/JackWFinlay/git-auto-commit#readme",
+  "dependencies": {
+    "chokidar": "^1.6.0"
+  }
 }
